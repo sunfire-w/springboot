@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.platform.properties.ConfigProperties",
+      "name": "config.author",
+      "type": "com.platform.properties.ConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.platform.properties.ConfigProperties",
+      "name": "config.author.addr",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.platform.properties.ConfigProperties",
+      "name": "config.author.age",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.platform.properties.ConfigProperties",
+      "name": "config.author.name",
+      "type": "java.lang.String"
+    }
+  ]
+}

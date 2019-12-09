@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commonmq/common-mq.iml" filepath="$PROJECT_DIR$/commonmq/common-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elasticsearchservice/elasticsearch-service.iml" filepath="$PROJECT_DIR$/elasticsearchservice/elasticsearch-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eurekaconsumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eurekaconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-interface/eurekainterface.iml" filepath="$PROJECT_DIR$/eureka-interface/eurekainterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-parent/eurekaparent.iml" filepath="$PROJECT_DIR$/eureka-parent/eurekaparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-producer/eurekaproducer.iml" filepath="$PROJECT_DIR$/eureka-producer/eurekaproducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-registry/eurekaserverregistry.iml" filepath="$PROJECT_DIR$/eureka-server-registry/eurekaserverregistry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-registry-cluster/eurekaserverregistrycluster.iml" filepath="$PROJECT_DIR$/eureka-server-registry-cluster/eurekaserverregistrycluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-web/eurekaweb.iml" filepath="$PROJECT_DIR$/eureka-web/eurekaweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/procthrift/procthrift.iml" filepath="$PROJECT_DIR$/procthrift/procthrift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpleconsumermovie/simple-consumer-movie.iml" filepath="$PROJECT_DIR$/simpleconsumermovie/simple-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpleprovideruser/simple-provider-user.iml" filepath="$PROJECT_DIR$/simpleprovideruser/simple-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot.iml" filepath="$PROJECT_DIR$/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-client/springboot-dubbo-client.iml" filepath="$PROJECT_DIR$/springboot-dubbo-client/springboot-dubbo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-server/springboot-dubbo-server.iml" filepath="$PROJECT_DIR$/springboot-dubbo-server/springboot-dubbo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootwebapp/springbootwebapp.iml" filepath="$PROJECT_DIR$/springbootwebapp/springbootwebapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-example/springcloud-example.iml" filepath="$PROJECT_DIR$/springcloud-example/springcloud-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-properties/springcloud-properties.iml" filepath="$PROJECT_DIR$/springcloud-properties/springcloud-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-server/springcloud-server.iml" filepath="$PROJECT_DIR$/springcloud-server/springcloud-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-web/springcloud-web.iml" filepath="$PROJECT_DIR$/springcloud-web/springcloud-web.iml" />
+    </modules>
+  </component>
+</project>

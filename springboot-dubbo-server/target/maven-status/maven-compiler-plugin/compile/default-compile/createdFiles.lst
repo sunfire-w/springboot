@@ -1,0 +1,6 @@
+springboot\domain\City.class
+springboot\utils\ShutDownHook.class
+springboot\utils\SpringUtil.class
+springboot\dubbo\CityDubboService.class
+springboot\ServerApplication.class
+springboot\dubbo\impl\CityDubboServiceImpl.class

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+                http://www.springframework.org/schema/context/spring-context.xsd
+            http://www.springframework.org/schema/rabbit
+                http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+    <import resource="classpath:/spring-conf/spring-rabbitmq-config.xml" />
+
+    <!-- exchange queue binging key 绑定 -->
+    <rabbit:topic-exchange name="hotelproduct_delay_exchange" durable="true" auto-delete="false" id="hotelproduct_delay_exchange">
+        <rabbit:bindings>
+            <rabbit:binding queue="hotelproduct_delay_queue" pattern="hotelproduct_x_queue"/>
+            <!--  <rabbit:binding queue="st_hotelproduct_delay_queue" pattern="st_tmcjurisdiction_x_queue"/> -->
+            <!-- queue 错误队列绑定 -->
+            <rabbit:binding queue="hotelproduct_error_queue" pattern="hotelproduct_error_queue" />
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+
+    <!-- queue 延迟队列声明-->
+    <rabbit:queue id="hotelproduct_delay_queue" durable="true" auto-delete="false" exclusive="false" name="hotelproduct_delay_queue">
+        <rabbit:queue-arguments>
+            <entry key="x-message-ttl">
+                <value type="java.lang.Long">300000</value>
+            </entry>
+            <entry key="x-max-length">
+                <value type="java.lang.Long">5000000</value>
+            </entry>
+            <entry key="x-dead-letter-exchange">
+                <value type="java.lang.String">hotelproduct_x_exchange</value>
+            </entry>
+            <!-- <entry key="x-dead-letter-routing-key">
+                <value type="java.lang.String">st_hotelproduct_x_queue</value>
+            </entry> -->
+        </rabbit:queue-arguments>
+    </rabbit:queue>
+
+    <!-- queue 错误保存队列声明 -->
+    <rabbit:queue id="hotelproduct_error_queue" durable="true"
+                  auto-delete="true" exclusive="false" name="hotelproduct_error_queue">
+        <rabbit:queue-arguments>
+            <entry key="x-message-ttl">
+                <value type="java.lang.Long">2592000000</value>
+            </entry>
+            <entry key="x-max-length">
+                <value type="java.lang.Long">5000000</value>
+            </entry>
+        </rabbit:queue-arguments>
+    </rabbit:queue>
+
+    <!-- queue 队列声明-->
+    <rabbit:queue id="hotelproduct_x_queue" durable="true" auto-delete="false" exclusive="false" name="hotelproduct_x_queue"/>
+
+    <!-- exchange queue binging key 绑定 -->
+    <rabbit:topic-exchange name="hotelproduct_x_exchange" durable="true" auto-delete="false" id="hotelproduct_x_exchange">
+        <rabbit:bindings>
+            <rabbit:binding queue="hotelproduct_x_queue" pattern="hotelproduct_x_queue"/>
+            <!--  <rabbit:binding queue="st_hotelproduct_x_queue" pattern="st_tmcjurisdiction_x_queue"/> -->
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+    <bean id="sendMQUtils" class="common.SendMQUtils"/>
+</beans>

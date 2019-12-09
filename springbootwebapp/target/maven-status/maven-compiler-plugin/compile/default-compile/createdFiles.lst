@@ -1,0 +1,17 @@
+platform\facade\Request.class
+platform\web\DefineExceptionHandler.class
+platform\entity\BaseResponse.class
+platform\web\WebInterceptors.class
+platform\utils\JsonResult.class
+platform\facade\BaseRequest.class
+platform\controller\IndexController.class
+platform\facade\AbstractRequestFacade.class
+platform\service\BookService.class
+platform\exception\BusinessException.class
+platform\facade\RequestFacade.class
+platform\service\impl\BookServiceImpl.class
+platform\velocity\VelocitySevice.class
+platform\cotoye\RequestFacade.class
+platform\domain\Book.class
+platform\utils\SpringfoxDocConfig.class
+platform\controller\BookController.class

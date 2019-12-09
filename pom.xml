@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>springboot</groupId>
+  <artifactId>springboot</artifactId>
+  <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.8</version>
+        </dependency>
+    </dependencies>
+    <packaging>pom</packaging>
+  <modules>
+  <!-- Spring Boot WebFlux 快速入门 -->
+      <module>springboot-dubbo-server</module>
+      <module>springboot-dubbo-client</module>
+      <module>springcloud-server</module>
+      <module>springcloud-web</module>
+      <module>springcloud-properties</module>
+      <module>springcloud-example</module>
+      <module>Eureka-parent</module>
+      <module>commonmq</module>
+      <module>simpleprovideruser</module>
+      <module>simpleconsumermovie</module>
+      <module>elasticsearchservice</module>
+      <module>springbootwebapp</module>
+      <module>procthrift</module>
+  </modules>
+</project>

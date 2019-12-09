@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springbootwebapp:war">
+    <output-path>$PROJECT_DIR$/springbootwebapp/target</output-path>
+    <root id="archive" name="springbootwebapp.war">
+      <element id="artifact" artifact-name="springbootwebapp:war exploded" />
+    </root>
+  </artifact>
+</component>

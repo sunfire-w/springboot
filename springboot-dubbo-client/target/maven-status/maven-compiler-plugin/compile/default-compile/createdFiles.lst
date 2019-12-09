@@ -1,0 +1,4 @@
+springboot\domain\City.class
+springboot\dubbo\CityDubboConsumerService.class
+springboot\dubbo\CityDubboService.class
+springboot\dubbo\ICityService.class
