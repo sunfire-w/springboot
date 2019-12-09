@@ -212,5 +212,3 @@ org.elasticsearch.transport.ReceiveTimeoutTransportException: [][192.168.90.129:
 2019-12-02 13:35:45 [main] INFO  PluginsService:177 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
 2019-12-02 13:35:45 [main] INFO  PluginsService:177 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
 2019-12-02 13:35:45 [main] INFO  PluginsService:177 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
-2019-12-02 13:35:45 [main] INFO  PluginsService:177 - loaded plugin [org.elasticsearch.transport.Netty3Plugin]
-2019-12-02 13:35:45 [main] INFO  PluginsService:177 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
