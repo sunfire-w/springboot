@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/book-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookrpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookrpc/book-client-rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookrpc/book-interface-rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookrpc/book-service-rpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookserviceparent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bookutil" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elasticsearchservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-interface" charset="UTF-8" />

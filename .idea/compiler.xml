@@ -6,6 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="book-client-rpc" />
+        <module name="book-common-base" />
+        <module name="book-common-core" />
+        <module name="book-interface-rpc" />
+        <module name="book-service-rpc" />
+        <module name="book-util" />
         <module name="common-mq" />
         <module name="elasticsearch-service" />
         <module name="eurekaconsumer" />
@@ -14,7 +20,7 @@
         <module name="eurekaserverregistry" />
         <module name="eurekaserverregistrycluster" />
         <module name="eurekaweb" />
-        <module name="procthrift" />
+        <module name="proc-thrift" />
         <module name="simple-consumer-movie" />
         <module name="simple-provider-user" />
         <module name="springboot-dubbo-client" />
@@ -27,6 +33,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="book-client-rpc" target="1.6" />
+      <module name="book-common-base" target="1.5" />
+      <module name="book-common-core" target="1.6" />
+      <module name="book-interface-rpc" target="1.6" />
+      <module name="book-rpc" target="1.8" />
+      <module name="book-service-parent" target="1.6" />
+      <module name="book-service-rpc" target="1.6" />
+      <module name="book-util" target="1.6" />
       <module name="common-mq" target="1.5" />
       <module name="elasticsearch-service" target="1.7" />
       <module name="eurekaconsumer" target="1.8" />
@@ -36,15 +50,13 @@
       <module name="eurekaserverregistry" target="1.8" />
       <module name="eurekaserverregistrycluster" target="1.8" />
       <module name="eurekaweb" target="1.7" />
-      <module name="procthrift" target="1.7" />
+      <module name="proc-thrift" target="1.7" />
       <module name="simple-consumer-movie" target="1.8" />
       <module name="simple-provider-user" target="1.8" />
       <module name="springboot" target="1.5" />
       <module name="springboot-dubbo-client" target="1.6" />
       <module name="springboot-dubbo-server" target="1.6" />
-      <module name="springboot-web-mvc" target="1.8" />
       <module name="springbootwebapp" target="1.8" />
-      <module name="springbootwebmvcfront" target="1.8" />
       <module name="springcloud-example" target="1.8" />
       <module name="springcloud-properties" target="1.5" />
       <module name="springcloud-server" target="1.5" />

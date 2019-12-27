@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<configuration>		    
+        <custom-converters>
+            <converter type="com.book.util.MapperDateConverter" >
+                <class-a>java.lang.Long</class-a>
+                <class-b>java.util.Date</class-b>
+            </converter>
+            <converter type="com.book.util.MapperStringToDateConverter" >
+                <class-a>java.lang.String</class-a>
+                <class-b>java.util.Date</class-b>
+            </converter>            
+        </custom-converters>
+    </configuration>
+</mappings>

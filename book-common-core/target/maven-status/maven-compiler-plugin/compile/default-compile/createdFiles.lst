@@ -1,0 +1,4 @@
+com\book\rpc\dao\mapper\ext\BookMapperExt.class
+com\book\rpc\dao\mapper\BookMapper.class
+com\book\rpc\dao\BookDao.class
+com\book\rpc\dao\entity\Book.class

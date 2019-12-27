@@ -1,0 +1,6 @@
+com\book\service\Impl\BookServiceImpl.class
+com\book\service\IBookService.class
+com\book\utils\ShutDownHook.class
+com\book\server\StartupApp.class
+com\book\api\BookApi.class
+com\book\utils\SpringUtil.class

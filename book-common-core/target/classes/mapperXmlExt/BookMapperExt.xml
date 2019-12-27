@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.book.rpc.dao.mapper.ext.BookMapperExt" >
+  <resultMap id="BaseResultMap" type="com.book.rpc.dao.entity.Book" >
+        <id column="id" property="id" jdbcType="VARCHAR" />
+		<result column="title" property="title" jdbcType="VARCHAR"  />
+		<result column="language" property="language" jdbcType="VARCHAR"  />
+		<result column="author" property="author" jdbcType="VARCHAR"  />
+		<result column="book_image_url" property="bookImageUrl" jdbcType="VARCHAR"  />
+		<result column="price" property="price" jdbcType="DECIMAL"  />
+		<result column="publish_time" property="publishTime" jdbcType="DATE" javaType="java.util.Date" />
+		<result column="introduction" property="introduction" jdbcType="LONGVARCHAR"  />
+  </resultMap>
+  
+	<!-- 基础sql -->
+	<sql id="Base_Column_List" >
+		id,title,language,author,book_image_url,price,publish_time,introduction
+	</sql>
+  
+	<!-- 批量保存 -->
+	<insert id="batchSaveBook" parameterType="java.util.List">
+		insert into book (<include refid="Base_Column_List"/>) 
+		values
+		<foreach collection="books" item="Book" index="index" separator=",">
+			( #{Book.id,jdbcType=VARCHAR},#{Book.title,jdbcType=VARCHAR},#{Book.language,jdbcType=VARCHAR},#{Book.author,jdbcType=VARCHAR},#{Book.bookImageUrl,jdbcType=VARCHAR},#{Book.price,jdbcType=DECIMAL},#{Book.publishTime,jdbcType=DATE},#{Book.introduction,jdbcType=LONGVARCHAR} 
+		    )
+		</foreach>
+	</insert>
+	
+   <!-- 保存 -->  
+   <insert id="saveBook" parameterType="com.book.rpc.dao.entity.Book">
+		insert into book (title,language,author,book_image_url,price,publish_time,introduction) 
+		values (
+		   #{title,jdbcType=VARCHAR} ,  #{language,jdbcType=VARCHAR} ,  #{author,jdbcType=VARCHAR} ,  #{bookImageUrl,jdbcType=VARCHAR} ,  #{price,jdbcType=DECIMAL} ,  #{publishTime,jdbcType=DATE} ,  #{introduction,jdbcType=LONGVARCHAR} )
+	<selectKey resultType="String" keyProperty="id" >
+      select last_insert_id()
+    </selectKey>
+  </insert>
+  
+  <!-- 更新 -->  
+	<update id="updateBook" parameterType="com.book.rpc.dao.entity.Book">
+			update book set 
+			id=#{id,jdbcType=VARCHAR}
+,title=#{title,jdbcType=VARCHAR}
+,language=#{language,jdbcType=VARCHAR}
+,author=#{author,jdbcType=VARCHAR}
+,book_image_url=#{bookImageUrl,jdbcType=VARCHAR}
+,price=#{price,jdbcType=DECIMAL}
+,publish_time=#{publishTime,jdbcType=DATE}
+,introduction=#{introduction,jdbcType=LONGVARCHAR}
+		    where id=#{id,jdbcType=VARCHAR}
+  </update>
+  
+  <!-- 删除 -->  
+	<delete id="deleteBook" parameterType="com.book.rpc.dao.entity.Book">
+		delete from book where id=#{id,jdbcType=VARCHAR}
+	</delete> 
+  
+  <!-- 查询 按主键Key--> 
+  <select id="findById" resultMap="BaseResultMap" parameterType="String">
+		select <include refid="Base_Column_List"/> from book where id=#{id}
+  </select>
+  
+  <!-- 查询List 按指定条件 pageSize分页--> 
+  <select id="findBookList" resultMap="BaseResultMap">
+		select <include refid="Base_Column_List"/> from book where 1=1
+	<if test="map.id!=null">
+	and id=#{map.id,jdbcType=VARCHAR}
+	</if>
+	<if test="map.title!=null">
+	and title=#{map.title,jdbcType=VARCHAR}
+	</if>
+	<if test="map.language!=null">
+	and language=#{map.language,jdbcType=VARCHAR}
+	</if>
+	<if test="map.author!=null">
+	and author=#{map.author,jdbcType=VARCHAR}
+	</if>
+	<if test="map.bookImageUrl!=null">
+	and book_image_url=#{map.bookImageUrl,jdbcType=VARCHAR}
+	</if>
+	<if test="map.price!=null">
+	and price=#{map.price,jdbcType=DECIMAL}
+	</if>
+	<if test="map.publishTime!=null">
+	and publish_time=#{map.publishTime,jdbcType=DATE}
+	</if>
+	<if test="map.introduction!=null">
+	and introduction=#{map.introduction,jdbcType=LONGVARCHAR}
+	</if>
+		order by id desc
+	<if test="page.pageSize>0">
+		limit #{page.firstEntityIndex},#{page.pageSize}
+  	</if>
+  </select>
+  
+  <!-- 查询 按指定条件 --> 
+  <select id="countBook" resultType="int">
+		select count(*) from book where 1=1
+	<if test="map.id!=null">
+	and id=#{map.id,jdbcType=VARCHAR}
+	</if>
+	<if test="map.title!=null">
+	and title=#{map.title,jdbcType=VARCHAR}
+	</if>
+	<if test="map.language!=null">
+	and language=#{map.language,jdbcType=VARCHAR}
+	</if>
+	<if test="map.author!=null">
+	and author=#{map.author,jdbcType=VARCHAR}
+	</if>
+	<if test="map.bookImageUrl!=null">
+	and book_image_url=#{map.bookImageUrl,jdbcType=VARCHAR}
+	</if>
+	<if test="map.price!=null">
+	and price=#{map.price,jdbcType=DECIMAL}
+	</if>
+	<if test="map.publishTime!=null">
+	and publish_time=#{map.publishTime,jdbcType=DATE}
+	</if>
+	<if test="map.introduction!=null">
+	and introduction=#{map.introduction,jdbcType=LONGVARCHAR}
+	</if>
+  </select>
+</mapper>

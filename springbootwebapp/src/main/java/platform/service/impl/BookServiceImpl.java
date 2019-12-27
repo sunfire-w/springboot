@@ -28,7 +28,7 @@ public class BookServiceImpl implements BookService {
     IAccessLimitService AccessLimitService;
     // 模拟数据库，存储 Book 信息
     // 第五章《﻿数据存储》会替换成 MySQL 存储
-    private static Map<Long, Book> BOOK_DB = new HashMap<>();
+    private static Map<String, Book> BOOK_DB = new HashMap<>();
 
     @Override
     public List<Book> findAll() {
@@ -37,7 +37,7 @@ public class BookServiceImpl implements BookService {
 
     @Override
     public Book insertByBook(Book book) {
-        book.setId(BOOK_DB.size() + 1L);
+        book.setId(String.valueOf(BOOK_DB.size() + 1L));
         BOOK_DB.put(book.getId(), book);
         return book;
     }
@@ -80,8 +80,8 @@ public class BookServiceImpl implements BookService {
 //            return response;
 //        }
         Book book=BOOK_DB.get(id);
-    String cityname=cityService.findCityByName("");
-        book.setName(cityname);
+        String cityname=cityService.findCityByName("");
+        book.setTitle(cityname);
         if(book!=null)
     {
         response.setSuccess(0);
