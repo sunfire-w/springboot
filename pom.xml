@@ -35,5 +35,6 @@
       <module>bookrpc</module>
       <module>bookutil</module>
       <module>book-common-base</module>
+      <module>book-web</module>
   </modules>
 </project>

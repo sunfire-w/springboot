@@ -9,9 +9,11 @@
         <module name="book-client-rpc" />
         <module name="book-common-base" />
         <module name="book-common-core" />
+        <module name="book-domain" />
         <module name="book-interface-rpc" />
         <module name="book-service-rpc" />
         <module name="book-util" />
+        <module name="book-webapp" />
         <module name="common-mq" />
         <module name="elasticsearch-service" />
         <module name="eurekaconsumer" />
@@ -36,11 +38,14 @@
       <module name="book-client-rpc" target="1.6" />
       <module name="book-common-base" target="1.5" />
       <module name="book-common-core" target="1.6" />
+      <module name="book-domain" target="1.6" />
       <module name="book-interface-rpc" target="1.6" />
       <module name="book-rpc" target="1.8" />
       <module name="book-service-parent" target="1.6" />
       <module name="book-service-rpc" target="1.6" />
       <module name="book-util" target="1.6" />
+      <module name="book-web" target="1.5" />
+      <module name="book-webapp" target="1.7" />
       <module name="common-mq" target="1.5" />
       <module name="elasticsearch-service" target="1.7" />
       <module name="eurekaconsumer" target="1.8" />

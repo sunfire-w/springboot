@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/book-web/book-webapp" />
     <file type="web" url="file://$PROJECT_DIR$/eureka-web" />
     <file type="web" url="file://$PROJECT_DIR$/springbootwebapp" />
     <file type="web" url="file://$PROJECT_DIR$/springcloud-web" />

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>book-service-parent</groupId>
+        <artifactId>book-service-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>book-domain</groupId>
+    <artifactId>book-domain</artifactId>
+    <dependencies>
+    <dependency>
+        <groupId>book-util</groupId>
+        <artifactId>book-util</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+        <dependency>
+            <groupId>book-client-rpc</groupId>
+            <artifactId>book-client-rpc</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>book-interface-rpc</groupId>
+            <artifactId>book-interface-rpc</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

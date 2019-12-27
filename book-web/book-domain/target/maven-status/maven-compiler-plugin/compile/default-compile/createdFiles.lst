@@ -1,0 +1,15 @@
+com\book\domain\utils\SpringfoxDocConfig.class
+com\book\domain\vo\response\BookUpdateRes.class
+com\book\domain\utils\RequestUtils.class
+com\book\domain\vo\response\BookRemoveRes.class
+com\book\domain\vo\response\BookSaveRes.class
+com\book\domain\vo\request\BookGetVo.class
+com\book\domain\utils\JsonResult.class
+com\book\domain\vo\request\BookGetListVo.class
+com\book\domain\vo\request\BookSaveVo.class
+com\book\domain\vo\response\BookEntityRes.class
+com\book\domain\vo\request\BookRemoveVo.class
+com\book\domain\vo\request\BookUpdateVo.class
+com\book\domain\service\impl\BookServiceImpl.class
+com\book\domain\service\IBookService.class
+com\book\domain\vo\response\BookListEntityRes.class

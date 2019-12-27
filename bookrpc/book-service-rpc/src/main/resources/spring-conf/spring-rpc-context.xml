@@ -10,11 +10,11 @@
 	http://www.springframework.org/schema/aop
 	http://www.springframework.org/schema/aop/spring-aop-4.2.xsd">
 
-<dubbo:application name="book-rpc-platform" owner="book"/>
+    <dubbo:application name="book-rpc-platform" owner="book"/>
     <dubbo:registry address="zookeeper://127.0.0.1:2181"  client="curator" timeout="10000"/>
 
     <bean id="IBookService" class="com.book.api.BookApi" />
     <dubbo:service interface="com.book.thrift.service.IBookService$Iface"
-                   ref="IBookService" version="1" timeout="10000" >
+                   ref="IBookService" version="1" timeout="10000">
     </dubbo:service>
 </beans>
