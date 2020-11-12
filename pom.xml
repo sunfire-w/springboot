@@ -23,18 +23,9 @@
       <module>springcloud-web</module>
       <module>springcloud-properties</module>
       <module>springcloud-example</module>
-      <module>Eureka-parent</module>
-      <module>commonmq</module>
       <module>simpleprovideruser</module>
       <module>simpleconsumermovie</module>
-      <module>elasticsearchservice</module>
       <module>springbootwebapp</module>
       <module>procthrift</module>
-      <module>book-common-core</module>
-      <module>bookserviceparent</module>
-      <module>bookrpc</module>
-      <module>bookutil</module>
-      <module>book-common-base</module>
-      <module>book-web</module>
   </modules>
 </project>

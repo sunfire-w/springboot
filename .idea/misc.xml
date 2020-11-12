@@ -12,24 +12,34 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/book-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/book-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/book-domain-common/pom.xml" />
+        <option value="$PROJECT_DIR$/book-domain-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/book-web-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/book-web/pom.xml" />
+        <option value="$PROJECT_DIR$/bookrpc/pom.xml" />
+        <option value="$PROJECT_DIR$/bookserviceparent/pom.xml" />
+        <option value="$PROJECT_DIR$/bookutil/pom.xml" />
+        <option value="$PROJECT_DIR$/com-book-rpc-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/com-sunflare-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/commonmq/pom.xml" />
+        <option value="$PROJECT_DIR$/elasticsearchservice/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-registry-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-web/pom.xml" />
+        <option value="$PROJECT_DIR$/hadoop/pom.xml" />
+        <option value="$PROJECT_DIR$/sunflare-kafka/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -2,26 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bookrpc/book-client-rpc/book-client-rpc.iml" filepath="$PROJECT_DIR$/bookrpc/book-client-rpc/book-client-rpc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/book-common-base/book-common-base.iml" filepath="$PROJECT_DIR$/book-common-base/book-common-base.iml" />
-      <module fileurl="file://$PROJECT_DIR$/book-common-core/book-common-core.iml" filepath="$PROJECT_DIR$/book-common-core/book-common-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/book-web/book-domain/book-domain.iml" filepath="$PROJECT_DIR$/book-web/book-domain/book-domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bookrpc/book-interface-rpc/book-interface-rpc.iml" filepath="$PROJECT_DIR$/bookrpc/book-interface-rpc/book-interface-rpc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bookrpc/book-rpc.iml" filepath="$PROJECT_DIR$/bookrpc/book-rpc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bookserviceparent/book-service-parent.iml" filepath="$PROJECT_DIR$/bookserviceparent/book-service-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bookrpc/book-service-rpc/book-service-rpc.iml" filepath="$PROJECT_DIR$/bookrpc/book-service-rpc/book-service-rpc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bookutil/book-util.iml" filepath="$PROJECT_DIR$/bookutil/book-util.iml" />
-      <module fileurl="file://$PROJECT_DIR$/book-web/book-web.iml" filepath="$PROJECT_DIR$/book-web/book-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/book-web/book-webapp/book-webapp.iml" filepath="$PROJECT_DIR$/book-web/book-webapp/book-webapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/commonmq/common-mq.iml" filepath="$PROJECT_DIR$/commonmq/common-mq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/elasticsearchservice/elasticsearch-service.iml" filepath="$PROJECT_DIR$/elasticsearchservice/elasticsearch-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eurekaconsumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eurekaconsumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-interface/eurekainterface.iml" filepath="$PROJECT_DIR$/eureka-interface/eurekainterface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-parent/eurekaparent.iml" filepath="$PROJECT_DIR$/eureka-parent/eurekaparent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-producer/eurekaproducer.iml" filepath="$PROJECT_DIR$/eureka-producer/eurekaproducer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-server-registry/eurekaserverregistry.iml" filepath="$PROJECT_DIR$/eureka-server-registry/eurekaserverregistry.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-server-registry-cluster/eurekaserverregistrycluster.iml" filepath="$PROJECT_DIR$/eureka-server-registry-cluster/eurekaserverregistrycluster.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-web/eurekaweb.iml" filepath="$PROJECT_DIR$/eureka-web/eurekaweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/procthrift/proc-thrift.iml" filepath="$PROJECT_DIR$/procthrift/proc-thrift.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleconsumermovie/simple-consumer-movie.iml" filepath="$PROJECT_DIR$/simpleconsumermovie/simple-consumer-movie.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleprovideruser/simple-provider-user.iml" filepath="$PROJECT_DIR$/simpleprovideruser/simple-provider-user.iml" />

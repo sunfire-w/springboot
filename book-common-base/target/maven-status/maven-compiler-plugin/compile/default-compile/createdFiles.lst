@@ -1,4 +1,0 @@
-com\book\common\base\Exception\BusinessException.class
-com\book\common\base\web\TraceData.class
-com\book\common\base\entity\SessionEntity.class
-com\book\common\base\constant\ResponseCode.class

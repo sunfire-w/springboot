@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="springboot.AppTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="springboot.AppTest" time="0.001" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.1.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Dev\jdk1.8\jre\bin"/>
     <property name="java.vm.version" value="25.66-b17"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\roya\学习资料\java\springboot-learning-master"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\project\springboot"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\roya\学习资料\java\springboot-learning-master"/>
+    <property name="user.dir" value="D:\project\springboot"/>
     <property name="java.runtime.version" value="1.8.0_66-b17"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="D:\Dev\jdk1.8\jre\lib\endorsed"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="D:\Dev\apache-maven-3.5.3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\Dev\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\roya\JAVA\apache-cxf-2.7.10\bin;D:\Dev\apache-maven-3.5.3\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;D:\Program Files\Microsoft SQL Server\100\Tools\Binn\;D:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;D:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\dotnet\;D:\Program Files\TortoiseSVN\bin;D:\Dev\jdk1.8\bin;D:\Dev\jdk1.8\jre\bin;D:\Program Files\nodejs\;E:\roya\开发工具\curl-7.60.0\I386;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Dev\Thrift;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="D:\Dev\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\roya\JAVA\apache-cxf-2.7.10\bin;D:\Dev\apache-maven-3.5.3\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;D:\Program Files\Microsoft SQL Server\100\Tools\Binn\;D:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;D:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\dotnet\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\nodejs\;E:\roya\开发工具\curl-7.60.0\I386;C:\Program Files\MySQL\MySQL Utilities 1.6\;D:\Dev\Thrift;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;D:\Dev\jdk1.8\bin;D:\Dev\jdk1.8\jre\bin;D:\nuget\nuget\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\BypassRuntm;."/>
     <property name="maven.conf" value="D:\Dev\apache-maven-3.5.3/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -62,5 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="springboot.AppTest" time="0"/>
+  <testcase name="shouldAnswerWithTrue" classname="springboot.AppTest" time="0.001"/>
 </testsuite>

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/book-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/book-domain-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/book-web-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/book-web/book-domain" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/book-web/book-webapp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bookrpc" charset="UTF-8" />
@@ -10,6 +12,8 @@
     <file url="file://$PROJECT_DIR$/bookrpc/book-service-rpc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bookserviceparent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bookutil" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-book-rpc-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/com-sunflare-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elasticsearchservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-interface" charset="UTF-8" />
@@ -26,5 +30,6 @@
     <file url="file://$PROJECT_DIR$/springbootwebapp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-example" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sunflare-kafka" charset="UTF-8" />
   </component>
 </project>

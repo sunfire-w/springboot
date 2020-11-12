@@ -90,7 +90,9 @@ public class BookController {
             @ApiImplicitParam(paramType = "header", name = "sid", dataType = "String", required = true, value = "sessionId"),
             @ApiImplicitParam(paramType = "header", name = "source", dataType = "String", required = true, value = "android/ios/h5/weixin/customer/tmc/platform"),
             @ApiImplicitParam(paramType = "header", name = "version", dataType = "String", required = false, value = "版本号")
-    })
+    }
+
+    )
     @RequestMapping(value = "/putBook", method = RequestMethod.PUT,produces = "application/json;charset=utf-8")
     @ResponseBody
     public Book putBook(@RequestBody Book book,HttpServletRequest request) {

@@ -6,22 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="book-client-rpc" />
-        <module name="book-common-base" />
-        <module name="book-common-core" />
-        <module name="book-domain" />
-        <module name="book-interface-rpc" />
-        <module name="book-service-rpc" />
-        <module name="book-util" />
-        <module name="book-webapp" />
-        <module name="common-mq" />
-        <module name="elasticsearch-service" />
-        <module name="eurekaconsumer" />
-        <module name="eurekainterface" />
-        <module name="eurekaproducer" />
-        <module name="eurekaserverregistry" />
-        <module name="eurekaserverregistrycluster" />
-        <module name="eurekaweb" />
         <module name="proc-thrift" />
         <module name="simple-consumer-movie" />
         <module name="simple-provider-user" />
@@ -35,19 +19,24 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="book-client-rpc" target="1.6" />
+      <module name="book-client-rpc" target="1.8" />
       <module name="book-common-base" target="1.5" />
       <module name="book-common-core" target="1.6" />
-      <module name="book-domain" target="1.6" />
-      <module name="book-interface-rpc" target="1.6" />
+      <module name="book-domain" target="1.8" />
+      <module name="book-domain-common" target="1.5" />
+      <module name="book-domain-parent" target="1.5" />
+      <module name="book-interface-rpc" target="1.8" />
       <module name="book-rpc" target="1.8" />
       <module name="book-service-parent" target="1.6" />
-      <module name="book-service-rpc" target="1.6" />
+      <module name="book-service-rpc" target="1.8" />
       <module name="book-util" target="1.6" />
       <module name="book-web" target="1.5" />
+      <module name="book-web-parent" target="1.5" />
       <module name="book-webapp" target="1.7" />
+      <module name="com-book-rpc-parent" target="1.8" />
+      <module name="com-sunflare-rabbitmq" target="1.8" />
       <module name="common-mq" target="1.5" />
-      <module name="elasticsearch-service" target="1.7" />
+      <module name="elasticsearch-service" target="1.8" />
       <module name="eurekaconsumer" target="1.8" />
       <module name="eurekainterface" target="1.8" />
       <module name="eurekaparent" target="1.8" />
@@ -55,6 +44,7 @@
       <module name="eurekaserverregistry" target="1.8" />
       <module name="eurekaserverregistrycluster" target="1.8" />
       <module name="eurekaweb" target="1.7" />
+      <module name="hadoop" target="1.8" />
       <module name="proc-thrift" target="1.7" />
       <module name="simple-consumer-movie" target="1.8" />
       <module name="simple-provider-user" target="1.8" />
@@ -66,6 +56,7 @@
       <module name="springcloud-properties" target="1.5" />
       <module name="springcloud-server" target="1.5" />
       <module name="springcloud-web" target="1.7" />
+      <module name="sunflare-kafka" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,6 +1,0 @@
-com\controller\ProductController.class
-com\service\impl\MessageHandlerServiceImpl.class
-com\handler\MessageHandler.class
-com\service\IMessageHandlerService.class
-com\ServiceConsumerApplication.class
-com\AAAAspect.class

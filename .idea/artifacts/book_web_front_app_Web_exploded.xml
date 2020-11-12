@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="book-web-front-app:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/book_web_front_app_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="book-web-front-app/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="book-web-front-app" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
