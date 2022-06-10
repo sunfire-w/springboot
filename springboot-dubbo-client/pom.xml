@@ -19,7 +19,7 @@
   <properties>
     <!--<dubbo-spring-boot>1.0.0</dubbo-spring-boot>-->
     <!--<dubbo-spring-boot>1.0.0</dubbo-spring-boot>-->
-    <dubbo.version>2.5.3</dubbo.version>
+    <dubbo.version>2.6.12</dubbo.version>
     <!-- zookeeper version -->
     <zookeeper.version>3.4.8</zookeeper.version>
     <zkclient.version>0.3</zkclient.version>
